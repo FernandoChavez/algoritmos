@@ -14,7 +14,7 @@ public class App
     {
     	int arrayNumbers[] = {55, 11, 3, -11, 2, 18, 21, 13, -3};
 		//Bubblesort
-		
+    	//This algorithm is bubbleSort
     	/*
 		BubbleSort objBubble = new BubbleSort();
 		System.out.println("Not Sorting: "+ Arrays.toString(arrayNumbers));
@@ -24,6 +24,7 @@ public class App
 		
 		
 		//Prime numbers
+    	//The goal is print only prime numbers inside of a array
 		/*
 		ArrayList<Integer> primes = new ArrayList<Integer>();
 		PrimeNumbers objArrayPrimeNumbers =  new PrimeNumbers();
@@ -34,6 +35,7 @@ public class App
 		
 		
 		//reverse Sort
+    	// Here is print a word in reverse
 		/*
 		String word =  "hola";
 		ReverseSort objReverse = new ReverseSort(word);
@@ -43,6 +45,7 @@ public class App
 		
 		
 		//palindrome
+    	// proof if a phrase is palindrome or not
 		/*
 		String phrase = "anita lava la tinaa";
 		Palindrome phraseObj = new Palindrome(phrase);
@@ -54,6 +57,7 @@ public class App
 		*/
     	
     	//MAX MIN
+    	//getting the min and max numbers from a array int
     	/*
     	MinMax objMinMax = new MinMax(arrayNumbers);
     	int arrayAnswers[] = objMinMax.getMaxMin();
@@ -61,7 +65,8 @@ public class App
     	*/
     	
     	
-    	//SunDigitsIntenfer
+    	//SunDigitsIntenger
+    	//Sum each digits of a intenger
     	SumDigitsIntenger objSum1 = new SumDigitsIntenger(23545);
     	SumDigitsIntenger objSum2 = new SumDigitsIntenger(9483812);
     	SumDigitsIntenger objSum3 = new SumDigitsIntenger(4);
