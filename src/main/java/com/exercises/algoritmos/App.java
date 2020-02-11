@@ -15,12 +15,12 @@ public class App
     	int arrayNumbers[] = {55, 11, 3, -11, 2, 18, 21, 13, -3};
 		//Bubblesort
 		
+    	/*
 		BubbleSort objBubble = new BubbleSort();
-		
 		System.out.println("Not Sorting: "+ Arrays.toString(arrayNumbers));
 		arrayNumbers=objBubble.addBubbleSort(arrayNumbers);
 		System.out.println("Sorting: "+Arrays.toString(arrayNumbers));	 
-		
+		*/
 		
 		
 		//Prime numbers
@@ -52,5 +52,23 @@ public class App
 		else
 			System.out.println("It isn't palindrome");
 		*/
+    	
+    	//MAX MIN
+    	/*
+    	MinMax objMinMax = new MinMax(arrayNumbers);
+    	int arrayAnswers[] = objMinMax.getMaxMin();
+    	System.out.println("Mix= "+arrayAnswers[0]+", Max = "+arrayAnswers[1]);
+    	*/
+    	
+    	
+    	//SunDigitsIntenfer
+    	SumDigitsIntenger objSum1 = new SumDigitsIntenger(23545);
+    	SumDigitsIntenger objSum2 = new SumDigitsIntenger(9483812);
+    	SumDigitsIntenger objSum3 = new SumDigitsIntenger(4);
+    	objSum1.sumDigitsFirstWay();
+    	objSum2.sumDigitsFirstWay();
+    	objSum3.sumDigitsFirstWay();
+    	
+    	
     }
 }
