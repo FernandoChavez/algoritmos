@@ -13,30 +13,24 @@ public class BubbleSortTest {
 	
 	@Test
     public void bubbleSortIsAdded() {
-		
 		int outputExpected[]= {-11, -3, 2, 3, 11, 13, 18, 21, 55};
-        BubbleSort bubbleSort = new BubbleSort();
-        int outputReceived[] = bubbleSort.addBubbleSort(arrayNumbers);
+        BubbleSort bubbleSort = new BubbleSort(arrayNumbers);
+        int outputReceived[] = bubbleSort.addBubbleSort();
         assertArrayEquals(outputExpected, outputReceived);
     }
 	
 	@Test
     public void bubbleSortIsNotAdded() {
-		
-		
 		int outputExpected[]= {-11, -3, 2, 3, 11, 13, 18, 21, 55};
-		
-        BubbleSort bubbleSort = new BubbleSort();
-        int outputReceived[] = bubbleSort.addBubbleSort(arrayNumbers);
+        BubbleSort bubbleSort = new BubbleSort(arrayNumbers);
+        int outputReceived[] = bubbleSort.addBubbleSort();
         //assertThat(outputExpected, is(not(outputReceived)));
-
     }
 	
 	@Test(expected=NullPointerException.class)
 	public void bubbleSortIsNull() {
 		int arrayNumbers[] = null;
-		BubbleSort bubbleSort = new BubbleSort();
-		bubbleSort.addBubbleSort(arrayNumbers);
-		
+		BubbleSort bubbleSort = new BubbleSort(arrayNumbers);
+		bubbleSort.addBubbleSort();		
 	}
 }

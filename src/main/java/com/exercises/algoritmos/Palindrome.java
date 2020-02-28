@@ -9,17 +9,17 @@ public class Palindrome {
 		
 	public boolean check() {
 		phrase = phrase.replace(" ", "");
-		int phraseSize= phrase.length();
-		int halfPhraseSize;
+		int phrSize= phrase.length();
+		int halfPhrSize;
 		boolean palindrome = true;
 		
-		if((phraseSize%2)==0) 
-			halfPhraseSize = phraseSize/2;
+		if((phrSize%2)==0) 
+			halfPhrSize = phrSize/2;
 		else
-			halfPhraseSize = (phraseSize-1)/2;
+			halfPhrSize = (phrSize-1)/2;
 		
-		for(int i = 0; i<halfPhraseSize; i++) {
-			if(phrase.charAt(i) != phrase.charAt(phraseSize-i-1)) {
+		for(int i = 0; i<halfPhrSize; i++) {
+			if(phrase.charAt(i) != phrase.charAt(phrSize-i-1)) {
 				palindrome = false;
 				break;
 			}
