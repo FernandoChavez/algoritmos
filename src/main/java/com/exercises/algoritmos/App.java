@@ -25,6 +25,11 @@ public class App
     	String phrase4 = "aamaa";
     	
     	
+    	String word = "Liliana";
+    	String word2 = "Coffe";
+    	String word3 = "Aguinaldo";
+    	
+    	
     	
     	
 		//BUBBLESORT
@@ -127,12 +132,18 @@ public class App
     	//Sort The smallest element is selected from the unsorted array and swapped with the leftmost element, 
     	//and that element becomes a part of the sorted array. This process continues moving unsorted array boundary 
     	//by one element to the right.
-    	
+    	/*
     	SelectionSort objSelSort = new SelectionSort(arrayNumbers);
     	System.out.println("Not sorted: " + Arrays.toString(arrayNumbers));
     	int arraySorted[] = objSelSort.addSelectionSort();
     	System.out.println("Sorted: "+Arrays.toString(arraySorted));
+    	*/
     	
+    	
+    	//Reverse vowels
+    	// reverse the vowels that are part of a word or phrase
+    	
+    	System.out.println(ReverseVowels.reverseOnlyVowels(word));
     	
     }
 }
