@@ -30,6 +30,17 @@ public class App
     	String word3 = "Aguinaldo";
     	
     	
+    	String time1 = "01:12:57PM";
+    	String time2 = "12:00:00PM";
+    	String time3 = "09:02:46PM";
+    	String time4 = "05:59:59PM";
+    	
+    	int number = 4;
+    	int number2 = 13;
+    	int number3 = 16;
+    	int number4 = 7;
+    	
+    	
     	
     	
 		//BUBBLESORT
@@ -142,8 +153,23 @@ public class App
     	
     	//Reverse vowels
     	// reverse the vowels that are part of a word or phrase
+    	//System.out.println(ReverseVowels.reverseOnlyVowels(word));
     	
-    	System.out.println(ReverseVowels.reverseOnlyVowels(word));
+    	
+    	//TIME CONVERSION
+    	//Convert an 12 hours format time to 24 hours format time
+    	/*
+    	String times[] = {time1, time2, time3, time4};
+    	for(String x: times) {
+    		System.out.println(TimeConvertion.convert12To24(x));
+    	}
+    	*/
+    	
+    	
+    	//STAIRCASE
+    	//Drawn N stairs conformed with # symbol and the rest with blankspaces
+    	StairCase.drawStairCase(number);
+    	
     	
     }
 }
