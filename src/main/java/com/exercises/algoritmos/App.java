@@ -18,6 +18,7 @@ public class App
     	int arrayNumbers4[] = {-55, -124, 999, 3234, 4671, 77777};
     	int arrayNumbers5[] = {};
     	
+    	int arrayNumbers6[] = {5 ,89 ,10 ,37, 34, 90, 99, 20};
     	
     	String phrase = "anita lava la tina";
     	String phrase2 = "anita lava la tinaa";
@@ -109,18 +110,14 @@ public class App
     	MinMax objMinMax = new MinMax(arrayNumbers);
     	MinMax objMinMax2 = new MinMax(arrayNumbers2);
     	MinMax objMinMax3 = new MinMax(arrayNumbers3);
-    	MinMax objMinMax4 = new MinMax(arrayNumbers4);
-    	MinMax objMinMax5 = new MinMax(arrayNumbers5);
     	
     	int arrayAnswers[] = objMinMax.getMaxMin();
     	int arrayAnswers2[] = objMinMax2.getMaxMin();
     	int arrayAnswers3[] = objMinMax3.getMaxMin();
-    	int arrayAnswers4[] = objMinMax4.getMaxMin();
     	
     	System.out.println("Mix= "+arrayAnswers[0]+", Max = "+arrayAnswers[1]);
     	System.out.println("Mix= "+arrayAnswers2[0]+", Max = "+arrayAnswers2[1]);
     	System.out.println("Mix= "+arrayAnswers3[0]+", Max = "+arrayAnswers3[1]);
-    	System.out.println("Mix= "+arrayAnswers4[0]+", Max = "+arrayAnswers4[1]);
     	*/
     	
     	
@@ -131,10 +128,8 @@ public class App
     	/*
     	SumDigitsIntenger objSum1 = new SumDigitsIntenger(23545);
     	SumDigitsIntenger objSum2 = new SumDigitsIntenger(9483812);
-    	SumDigitsIntenger objSum3 = new SumDigitsIntenger(9);
     	objSum1.sumDigitsFirstWay();
     	objSum2.sumDigitsFirstWay();
-    	objSum3.sumDigitsFirstWay();
     	*/
     	
     	
@@ -168,8 +163,32 @@ public class App
     	
     	//STAIRCASE
     	//Drawn N stairs conformed with # symbol and the rest with blankspaces
-    	StairCase.drawStairCase(number);
+    	//StairCase.drawStairCase(number);
     	
     	
+    	//DIAGONAL DIFFERENCES
+    	//Given a square matrix, calculate the absolute difference between the sums of its diagonals. 
+    	
+    	
+    	
+    	
+    	//BirthdayCakeCandles
+    	//Get the numbers of the higher candles exist in the cake
+    	//System.out.println(BirthdayCakeCandles.getNumberHigherCandles(arrayNumbers));
+    	
+    	//GRADING STUDENT
+    	//Intructions in the following link: https://www.hackerrank.com/challenges/grading/problem
+    	
+  
+    	//LEFT ROTATION
+    	//In an array elements, performing a 1 unit left rotation, specificing how man rotations wants
+    	//System.out.println(Arrays.toString(LeftRotation.arrayLeftRotation(arrayNumbers2, 4)));
+    	
+    	
+    	
+    	//KANGAROO
+    	//INTRUCTTIONS HERE: https://www.hackerrank.com/challenges/kangaroo/problem
+    	System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 2, 2));
+    	System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 1, 2));
     }
 }
