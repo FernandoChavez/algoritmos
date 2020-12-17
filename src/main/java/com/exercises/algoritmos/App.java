@@ -125,12 +125,14 @@ public class App
     	
     	//SUM DIGITS INTENGER
     	//Sum each digits of a intenger
-    	/*
+    	
     	SumDigitsIntenger objSum1 = new SumDigitsIntenger(23545);
     	SumDigitsIntenger objSum2 = new SumDigitsIntenger(9483812);
-    	objSum1.sumDigitsFirstWay();
-    	objSum2.sumDigitsFirstWay();
-    	*/
+    	SumDigitsIntenger objSum3 = new SumDigitsIntenger(16);
+    	//objSum1.sumDigitsFirstWay();
+    	//objSum2.sumDigitsFirstWay();
+    	objSum3.sumDigitsFirstWay();
+    	
     	
     	
     	
@@ -138,6 +140,7 @@ public class App
     	//Sort The smallest element is selected from the unsorted array and swapped with the leftmost element, 
     	//and that element becomes a part of the sorted array. This process continues moving unsorted array boundary 
     	//by one element to the right.
+    	
     	/*
     	SelectionSort objSelSort = new SelectionSort(arrayNumbers);
     	System.out.println("Not sorted: " + Arrays.toString(arrayNumbers));
@@ -188,7 +191,9 @@ public class App
     	
     	//KANGAROO
     	//INTRUCTTIONS HERE: https://www.hackerrank.com/challenges/kangaroo/problem
-    	System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 2, 2));
-    	System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 1, 2));
+    	//System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 2, 2));
+    	//System.out.println("Will the kangaroos match positions?: "+ Kangaroo.possibleMatch(-2, 4, 1, 2));
+    	
+    	
     }
 }

@@ -11,6 +11,7 @@ public class SumDigitsIntenger {
 		int sum=0;
 		int division = num/10;	
 		while(division > 0) {
+			System.out.println(division +", "+ division%10);
 			sum +=(division%10);
 			division /=10;
 		}	
